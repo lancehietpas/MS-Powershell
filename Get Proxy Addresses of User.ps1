@@ -1,0 +1,1 @@
+﻿Get-ADUser lhietpas -Properties ProxyAddresses | Select-Object Name,ProxyAddresses

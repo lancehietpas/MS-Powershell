@@ -1,0 +1,1 @@
+﻿Set-ADUser -Identity lhietpas -Add @{proxyAddresses="smtp:lance2@ymcafoxcities.org"}

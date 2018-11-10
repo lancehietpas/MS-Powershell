@@ -1,0 +1,1 @@
+﻿Set-ADUser lhietpas -Remove @{ProxyAddresses="smtp:lance2@ymcafoxcities.org"}
