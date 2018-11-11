@@ -1,1 +1,2 @@
-﻿Set-ADUser -Identity lhietpas -Add @{proxyAddresses="smtp:lance2@ymcafoxcities.org"}
+﻿Import-Module ActiveDirectory
+ Set-ADUser -Identity jdoe -Add @{proxyAddresses="smtp:johndoe@ymcafoxcities.org"}
