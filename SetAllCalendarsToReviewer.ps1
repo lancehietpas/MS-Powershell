@@ -1,0 +1,1 @@
+Get-EXOMailbox | ForEach-Object {Set-EXOMailboxFolderPermission $_”:\calendar” -User Default -AccessRights Reviewer}
